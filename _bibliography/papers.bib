@@ -1,93 +1,120 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
+@article{yang2024learning,
+  title={Learning a Generalized Physical Face Model From Data},
+  abstract={Physically-based simulation is a powerful approach for 3D facial animation as the resulting deformations are governed by physical constraints, allowing to easily resolve self-collisions, respond to external forces and perform realistic anatomy edits. Today's methods are data-driven, where the actuations for finite elements are inferred from captured skin geometry. Unfortunately, these approaches have not been widely adopted due to the complexity of initializing the material space and learning the deformation model for each character separately, which often requires a skilled artist followed by lengthy network training. In this work, we aim to make physics-based facial animation more accessible by proposing a generalized physical face model that we learn from a large 3D face dataset in a simulation-free manner. Once trained, our model can be quickly fit to any unseen identity and produce a ready-to-animate physical face model automatically. Fitting is as easy as providing a single 3D face scan, or even a single face image. After fitting, we offer intuitive animation controls, as well as the ability to retarget animations across characters. All the while, the resulting animations allow for physical effects like collision avoidance, gravity, paralysis, bone reshaping and more.},
+  author={Yang, Lingchen and Zoss, Gaspard and Chandran, Prashanth and Gross, Markus and Solenthaler, Barbara and Sifakis, Eftychios and Bradley, Derek},
+  year={2024},
+  journal={On ArXiv},
+  preview={GenSimFace.png},
+  pdf={https://arxiv.org/pdf/2402.19477.pdf},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+
+@article{wu2024monohair,
+  abbr={MonoHair},
+  title={MonoHair: High-Fidelity Hair Modeling from a Monocular Video},
+  author={Wu, Keyu and Yang, Lingchen and Kuang, Zhiyi and Feng, Yao and Han, Xutao and Shen, Yuefan and Fu, Hongbo and Zhou, Kun and Zheng, Youyi},
+  abstract={ Undoubtedly, high-fidelity 3D hair is crucial for achieving realism, artistic expression, and immersion in computer graphics. While existing 3D hair modeling methods have achieved impressive performance, the challenge of achieving high-quality hair reconstruction persists: they either require strict capture conditions, making practical applications difficult, or heavily rely on learned prior data, obscuring fine-grained details in images. To address these challenges, we propose MonoHair, a generic framework to achieve high-fidelity hair reconstruction from a monocular video, without specific requirements for environments. Our approach bifurcates the hair modeling process into two main stages: precise exterior reconstruction and interior structure inference. The exterior is meticulously crafted using our Patch-based Multi-View Optimization. This method strategically collects and integrates hair information from multiple views, independent of prior data, to produce a high-fidelity exterior 3D line map. This map not only captures intricate details but also facilitates the inference of the hair's inner structure. For the interior, we employ a data-driven, multi-view 3D hair reconstruction method. This method utilizes 2D structural renderings derived from the reconstructed exterior, mirroring the synthetic 2D inputs used during training. This alignment effectively bridges the domain gap between our training data and real-world data, thereby enhancing the accuracy and reliability of our interior structure inference. Lastly, we generate a strand model and resolve the directional ambiguity by our hair growth algorithm. Our experiments demonstrate that our method exhibits robustness across diverse hairstyles and achieves state-of-the-art performance.},
+  journal={Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2024},
+  preview={MonoHair.png},
+  website={https://keyuwu-cs.github.io/MonoHair/},
+  selected={true}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{yang2023efficient,
+  title={Efficient Incremental Potential Contact for Actuated Face Simulation},
+  author={Yang, Lingchen and Li, Bo and Solenthaler, Barbara},
+  abstract={We present a quasi-static finite element simulator for human face animation. We model the face as an actuated soft body, which can be efficiently simulated using Projective Dynamics (PD). We adopt Incremental Potential Contact (IPC) to handle self-intersection. However, directly integrating IPC into the simulation would impede the high efficiency of the PD solver, since the stiffness matrix in the global step is no longer constant and cannot be pre-factorized. We notice that the actual number of vertices affected by the collision is only a small fraction of the whole model, and by utilizing this fact we effectively decrease the scale of the linear system to be solved. With the proposed optimization method for collision, we achieve high visual fidelity at a relatively low performance overhead.},
+  journal={SIGGRAPH Asia Technical Communications},
+  preview={IPCFace.png},
+  year={2023},
+  pdf={https://cgl.ethz.ch/disclaimer.php?dlurl=/Downloads/Publications/Papers/2023/Yan23b/Yan23b.pdf},
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+
+@article{yang2023implicit,
+  title={An Implicit Physical Face Model Driven by Expression and Style},
+  author={Yang, Lingchen and Zoss, Gaspard and Chandran, Prashanth and Gotardo, Paulo and Gross, Markus and Solenthaler, Barbara and Sifakis, Eftychios and Bradley, Derek},
+  abstract={3D facial animation is often produced by manipulating facial deformation models (or rigs), that are traditionally parameterized by expression controls. A key component that is usually overlooked is expression 'style', as in, how a particular expression is performed. Although it is common to define a semantic basis of expressions that characters can perform, most characters perform each expression in their own style. To date, style is usually entangled with the expression, and it is not possible to transfer the style of one character to another when considering facial animation. We present a new face model, based on a data-driven implicit neural physics model, that can be driven by both expression and style separately. At the core, we present a framework for learning implicit physics-based actuations for multiple subjects simultaneously, trained on a few arbitrary performance capture sequences from a small set of identities. Once trained, our method allows generalized physics-based facial animation for any of the trained identities, extending to unseen performances. Furthermore, it grants control over the animation style, enabling style transfer from one character to another or blending styles of different characters. Lastly, as a physics-based model, it is capable of synthesizing physical effects, such as collision handling, setting our method apart from conventional approaches.},
+  journal={SIGGRAPH ASIA},
+  preview={MultiSimFace.png},
+  year={2023},
+  pdf={https://cgl.ethz.ch/disclaimer.php?dlurl=/Downloads/Publications/Papers/2023/Yan23a/Yan23a.pdf},
+  supp={https://cgl.ethz.ch/disclaimer.php?dlurl=/Downloads/Publications/Papers/2023/Yan23a/Yan23a_supp.pdf},
+  website={https://studios.disneyresearch.com/2023/11/29/an-implicit-physical-face-model-driven-by-expression-and-style/},
+  selected={true}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@article{yang2022implicit,
+  title={Implicit Neural Representation for Physics-driven Actuated Soft Bodies},
+  author={Yang, Lingchen and Kim, Byungsoo and Zoss, Gaspard and Gözcü, Baran and Gross, Markus and Solenthaler, Barbara},
+  abstract={Active soft bodies can affect their shape through an internal actuation mechanism that induces a deformation. Similar to recent work, this paper utilizes a differentiable, quasi-static, and physics-based simulation layer to optimize for actuation signals parameterized by neural networks. Our key contribution is a general and implicit formulation to control active soft bodies by defining a function that enables a continuous mapping from a spatial point in the material space to the actuation value. This property allows us to capture the signal's dominant frequencies, making the method discretization agnostic and widely applicable. We extend our implicit model to mandible kinematics for the particular case of facial animation and show that we can reliably reproduce facial expressions captured with high-quality capture systems. We apply the method to volumetric soft bodies, human poses, and facial expressions, demonstrating artist-friendly properties, such as simple control over the latent space and resolution invariance at test time.},
+  journal={ACM Transactions on Graphics (SIGGRAPH, Honorable Mention)},
+  year={2022},
+  preview={ImplicitFace.png},
+  pdf={https://cgl.ethz.ch/disclaimer.php?dlurl=/Downloads/Publications/Papers/2022/Yan22a/Yan22a.pdf},
+  supp={https://cgl.ethz.ch/disclaimer.php?dlurl=/Downloads/Publications/Papers/2022/Yan22a/Yan22a_supp.pdf},
+  website={https://studios.disneyresearch.com/2022/07/24/implicit-neural-representation-for-physics-driven-actuated-soft-bodies/},
+  selected={true}
+}
+
+@article{wu2022neuralhdhair,
+  abbr={NeuralHDHair},
+  title={NeuralHDHair: Automatic High-Fidelity Hair Modeling From a Single Image Using Implicit Neural Representations},
+  abstract={Undoubtedly, high-fidelity 3D hair plays an indispensable role in digital humans. However, existing monocular hair modeling methods are either tricky to deploy in digital systems (e.g., due to their dependence on complex user interactions or large databases) or can
+  produce only a coarse geometry. In this paper, we introduce NeuralHDHair, a flexible, fully automatic system for modeling high-fidelity hair from a single image. The key enablers of our system are two carefully designed neural networks: an IRHairNet (Implicit representation for hair using neural network) for inferring high-fidelity 3D hair geometric features (3D orientation field and 3D occupancy field) hierarchically and a GrowingNet (Growing hair strands using neural network) to efficiently generate 3D hair strands in parallel. Specifically, we perform a coarse-to-fine manner and propose a novel voxel-aligned implicit function (VIFu) to represent the global hair feature, which is further enhanced by the local details extracted from a hair luminance map. To improve the efficiency of a traditional hair growth algorithm, we adopt a local neural implicit function to grow strands based on the estimated 3D hair geometric features. Extensive experiments show that our method is capable of constructing a high-fidelity 3D hair model from a single image, both efficiently and effectively, and achieves the-state-of-the-art performance.},
+  author={Wu, Keyu and Ye, Yifan and Yang, Lingchen and Fu, Hongbo and Zhou, Kun and Zheng, Youyi},
+  journal={Conference on Computer Vision and Pattern Recognition (CVPR)},
+  preview={HDHair.png},
+  pdf={https://openaccess.thecvf.com/content/CVPR2022/papers/Wu_NeuralHDHair_Automatic_High-Fidelity_Hair_Modeling_From_a_Single_Image_Using_CVPR_2022_paper.pdf},
+  year={2022},
+  selected={true}
+}
+
+@article{wu2021ihairrecolorer,
+  abbr={iHairRecolorer},
+  title={iHairRecolorer: Deep Image-to-Video Hair Color Transfer},
+  author={Wu, Keyu and Yang, Lingchen and Fu, Hongbo and Zheng, Youyi},
+  abstract={In this paper, we present iHairRecolorer, the first deep-learning based approach for example-based hair color transfer in videos. Given an input video and a reference image, our method automatically transfers the hair color in the reference image to the hair in the video while keeping other hair attributes (e.g., shape, structure, and illumination) untouched, producing vivid color-transferred dynamic hair in the video. Our method performs the color transfer purely in the image space, without any form of intermediate 3D hair reconstruction. The key enabler of our method is a carefully designed conditional generative model that explicitly disentangles various hair attributes into their corresponding sub-spaces, which are implemented as conditional modules integrated into a generator. We introduce a novel spatially and temporally normalized luminance map to represent the structure and illumination of the hair. Such a representation can largely ease the burden of the generator to synthesize temporally coherent vivid dynamic hairs in the video. We further introduce a cycle consistency loss to enforce the faithfulness of the generated results w.r.t. the reference. We demonstrate our system's superiority in video hair color transfer by extensive experiments and comparisons to alternative methods.},
+  journal={Science China Information Sciences},
+  year={2021},
+  preview={HairColorer.gif},
+  pdf={http://scis.scichina.com/en/2021/210104.pdf},
+}
+
+@article{lingchen2020iorthopredictor,
+  abbr={iOrthoPredictor},
+  title={iOrthoPredictor: Model-Guided Deep Prediction of Teeth Alignment},
+  abstract={In this paper, we present iOrthoPredictor, a novel system to visually predict teeth alignment in photographs. Our system takes a frontal face image of a patient with visible malpositioned teeth along with a corresponding 3D teeth model as input, and generates a facial image with aligned teeth, simulating a real orthodontic treatment effect. The key enabler of our method is an effective disentanglement of an explicit representation of the teeth geometry from the in-mouth appearance, where the accuracy of teeth geometry transformation is ensured by the 3D teeth model while the in-mouth appearance is modeled as a latent variable. The disentanglement enables us to achieve fine-scale geometry control over the alignment while retaining the original teeth appearance attributes and lighting conditions. The whole pipeline consists of three deep neural networks: a U-Net architecture to explicitly extract the 2D teeth silhouette maps representing the teeth geometry in the input photo, a novel multilayer perceptron (MLP) based network to predict the aligned 3D teeth model, and an encoder-decoder based generative model to synthesize the in-mouth appearance conditional on the original teeth appearance and the aligned teeth geometry. Extensive experimental results and a user study demonstrate that \sysname~is effective in qualitatively predicting teeth alignment, and applicable to the orthodontic industry.},
+  author={Yang, Lingchen and Shi, Zefeng and Wu, Yiqian and Li, Xiang and Zhou, Kun and Fu, Hongbo and Zheng, Youyi},
+  journal={ACM Transactions on Graphics (SIGGRAPH ASIA)},
+  year={2020},
+  preview={Teeth.gif},
+  pdf={https://dl.acm.org/doi/pdf/10.1145/3414685.3417771},
+  code={https://github.com/Lingchen-chen/iOrthoPredictor},
+  selected={true}
+}
+
+@article{yang2019dynamic,
+  title={Dynamic Hair Modeling From Monocular Videos Using Deep Neural Networks},
+  abstract={We introduce a deep-learning-based framework for modeling dynamic hairs from monocular videos, which could be captured by a commodity video camera or downloaded from Internet. The framework mainly consists of two network structures, i.e., HairSpatNet for inferring 3D spatial features of hair geometry from 2D image features, and HairTempNet for extracting temporal features of hair motions from video frames. The spatial features are represented as 3D occupancy fields depicting the hair shapes and 3D orientation fields indicating the hair strand directions. The temporal features are represented as bidirectional 3D warping fields, describing the forward and backward motions of hair strands cross adjacent frames. Both HairSpatNet and HairTempNet are trained with synthetic hair data. The spatial and temporal features predicted by the networks are subsequently used for growing hair stands with both spatial and temporal consistency. Experiments demonstrate that our method is capable of constructing high-quality dynamic hair models that resemble the input video as closely as those reconstructed by the state-of-the-art multi-view method, and compares favorably to previous single-view techniques.},
+  author={Yang, Lingchen and Shi, Zefeng and Zheng, Youyi and Zhou, Kun},
+  journal={ACM Transactions on Graphics (SIGGRAPH ASIA)},
+  year={2019},
+  preview={Hair.gif},
+  pdf={https://dl.acm.org/doi/10.1145/3355089.3356511},
+  code={https://github.com/Lingchen-chen/Dynamic-Hair},
+  selected={true}
+}
+
+@article{yang2018controlling,
+  title={Controlling Stroke Size in Fast Style Transfer With Recurrent Convolutional Neural Network},
+  abstract={Controlling stroke size in Fast Style Transfer remains a difficult task. So far, only a few attempts have been made towards it, andthey still exhibit several deficiencies regarding efficiency, flexibility, and diversity. In this paper, we aim to tackle these problemsand propose a recurrent convolutional neural subnetwork, which we callrecurrent stroke-pyramid, to control the stroke size inFast Style Transfer. Compared to the state-of-the-art methods, our method not only achieves competitive results with much fewerparameters but provides more flexibility and efficiency for generalizing to unseen larger stroke size and being able to producea wide range of stroke sizes with only one residual unit. We further embed therecurrent stroke-pyramidinto the Multi-Stylesand the Arbitrary-Style models, achieving both style and stroke-size control in an entirely feed-forward manner with two novelrun-time control strategies},
+  author={Yang, Lingchen and Yang, Lumin and Zhao, Mingbo and Zheng, Youyi},
+  journal={Computer Graphics Forum (Pacific Graphics)},
+  year={2018},
+  organization={Wiley Online Library},
+  preview={Tower.gif},
+  pdf={https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13551}
 }

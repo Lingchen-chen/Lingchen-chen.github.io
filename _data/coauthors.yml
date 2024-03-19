@@ -1,34 +1,35 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Zoss":
+  - firstname: ["Gaspard"]
+    url: https://people.inf.ethz.ch/zossg/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Bradley":
+  - firstname: ["Derek"]
+    url: https://people.inf.ethz.ch/~bradleyd/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Solenthaler":
+  - firstname: ["Barbara"]
+    url: https://people.inf.ethz.ch/~sobarbar/solenthaler.html
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Gross":
+  - firstname: ["Markus"]
+    url: https://cgl.ethz.ch/people/grossm/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Sifakis":
+  - firstname: [Eftychios"]
+    url: https://pages.cs.wisc.edu/~sifakis/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Zhou":
+  - firstname: ["Kun"]
+    url: http://www.kunzhou.net/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Fu":
+  - firstname: ["Hongbu"]
+    url: https://sweb.cityu.edu.hk/hongbofu/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Wu":
+  - firstname: ["Keyu"]
+    url: https://keyuwu-cs.github.io/
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Shen":
+  - firstname: ["Yuefan"]
+    url: https://yuefanshen.net/
