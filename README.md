@@ -200,7 +200,6 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
   - [Table Of Contents](#table-of-contents)
   - [Getting started](#getting-started)
   - [Installing](#installing)
-  - [Customizing](#customizing)
   - [Features](#features)
     - [Light/Dark Mode](#lightdark-mode)
     - [CV](#cv)
@@ -232,10 +231,6 @@ Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarasc
 ## Installing
 
 For installation details please refer to [INSTALL.md](INSTALL.md).
-
-## Customizing
-
-For customization details please refer to [CUSTOMIZE.md](CUSTOMIZE.md).
 
 ## Features
 
