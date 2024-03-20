@@ -382,7 +382,7 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2rem;  /* Reduced from 4rem to 2rem */
 
     a {
       i::before {
@@ -725,6 +725,11 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+      }
+
+      .note {
+        font-weight: bolder;
+        color: var(--global-theme-color);
       }
 
       .author {

@@ -1,3 +1,8 @@
+---
+---
+References
+==========
+
 @article{yang2024learning,
   title={Learning a Generalized Physical Face Model From Data},
   abstract={Physically-based simulation is a powerful approach for 3D facial animation as the resulting deformations are governed by physical constraints, allowing to easily resolve self-collisions, respond to external forces and perform realistic anatomy edits. Today's methods are data-driven, where the actuations for finite elements are inferred from captured skin geometry. Unfortunately, these approaches have not been widely adopted due to the complexity of initializing the material space and learning the deformation model for each character separately, which often requires a skilled artist followed by lengthy network training. In this work, we aim to make physics-based facial animation more accessible by proposing a generalized physical face model that we learn from a large 3D face dataset in a simulation-free manner. Once trained, our model can be quickly fit to any unseen identity and produce a ready-to-animate physical face model automatically. Fitting is as easy as providing a single 3D face scan, or even a single face image. After fitting, we offer intuitive animation controls, as well as the ability to retarget animations across characters. All the while, the resulting animations allow for physical effects like collision avoidance, gravity, paralysis, bone reshaping and more.},
@@ -18,6 +23,7 @@
   journal={Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2024},
   preview={MonoHair.png},
+  video={https://keyuwu-cs.github.io/MonoHair/static/videos/teaser_video_new.mp4},
   website={https://keyuwu-cs.github.io/MonoHair/},
   selected={true}
 }
@@ -29,7 +35,8 @@
   journal={SIGGRAPH Asia Technical Communications},
   preview={IPCFace.png},
   year={2023},
-  pdf={https://cgl.ethz.ch/disclaimer.php?dlurl=/Downloads/Publications/Papers/2023/Yan23b/Yan23b.pdf},
+  pdf={https://cgl.ethz.ch/Downloads/Publications/Papers/2023/Yan23b/Yan23b.pdf},
+  video={https://cgl.ethz.ch/Downloads/Publications/PaperVideos/2023/Yan23b.mp4},
 }
 
 
@@ -40,8 +47,9 @@
   journal={SIGGRAPH ASIA},
   preview={MultiSimFace.png},
   year={2023},
-  pdf={https://cgl.ethz.ch/disclaimer.php?dlurl=/Downloads/Publications/Papers/2023/Yan23a/Yan23a.pdf},
-  supp={https://cgl.ethz.ch/disclaimer.php?dlurl=/Downloads/Publications/Papers/2023/Yan23a/Yan23a_supp.pdf},
+  pdf={https://cgl.ethz.ch/Downloads/Publications/Papers/2023/Yan23a/Yan23a.pdf},
+  supp={https://cgl.ethz.ch/Downloads/Publications/Papers/2023/Yan23a/Yan23a_supp.pdf},
+  video={https://cgl.ethz.ch/Downloads/Publications/PaperVideos/2023/Yan23a.mp4},
   website={https://studios.disneyresearch.com/2023/11/29/an-implicit-physical-face-model-driven-by-expression-and-style/},
   selected={true}
 }
@@ -50,11 +58,13 @@
   title={Implicit Neural Representation for Physics-driven Actuated Soft Bodies},
   author={Yang, Lingchen and Kim, Byungsoo and Zoss, Gaspard and Gözcü, Baran and Gross, Markus and Solenthaler, Barbara},
   abstract={Active soft bodies can affect their shape through an internal actuation mechanism that induces a deformation. Similar to recent work, this paper utilizes a differentiable, quasi-static, and physics-based simulation layer to optimize for actuation signals parameterized by neural networks. Our key contribution is a general and implicit formulation to control active soft bodies by defining a function that enables a continuous mapping from a spatial point in the material space to the actuation value. This property allows us to capture the signal's dominant frequencies, making the method discretization agnostic and widely applicable. We extend our implicit model to mandible kinematics for the particular case of facial animation and show that we can reliably reproduce facial expressions captured with high-quality capture systems. We apply the method to volumetric soft bodies, human poses, and facial expressions, demonstrating artist-friendly properties, such as simple control over the latent space and resolution invariance at test time.},
-  journal={ACM Transactions on Graphics (SIGGRAPH, Honorable Mention)},
+  journal={ACM Transactions on Graphics (SIGGRAPH)},
   year={2022},
+  note={Best Paper Honerable Mention},
   preview={ImplicitFace.png},
-  pdf={https://cgl.ethz.ch/disclaimer.php?dlurl=/Downloads/Publications/Papers/2022/Yan22a/Yan22a.pdf},
-  supp={https://cgl.ethz.ch/disclaimer.php?dlurl=/Downloads/Publications/Papers/2022/Yan22a/Yan22a_supp.pdf},
+  pdf={https://cgl.ethz.ch/Downloads/Publications/Papers/2022/Yan22a/Yan22a.pdf},
+  supp={https://cgl.ethz.ch/Downloads/Publications/Papers/2022/Yan22a/Yan22a_supp.pdf},
+  video={https://cgl.ethz.ch/Downloads/Publications/PaperVideos/2022/Yan22a.mp4},
   website={https://studios.disneyresearch.com/2022/07/24/implicit-neural-representation-for-physics-driven-actuated-soft-bodies/},
   selected={true}
 }
@@ -68,6 +78,7 @@
   journal={Conference on Computer Vision and Pattern Recognition (CVPR)},
   preview={HDHair.png},
   pdf={https://openaccess.thecvf.com/content/CVPR2022/papers/Wu_NeuralHDHair_Automatic_High-Fidelity_Hair_Modeling_From_a_Single_Image_Using_CVPR_2022_paper.pdf},
+  code={https://github.com/KeyuWu-CS/NeuralHDHair},
   year={2022},
   selected={true}
 }
@@ -104,6 +115,7 @@
   year={2019},
   preview={Hair.gif},
   pdf={https://dl.acm.org/doi/10.1145/3355089.3356511},
+  video={http://www.kunzhou.net/2019/dynamic-hair-capture-sa19.mp4},
   code={https://github.com/Lingchen-chen/Dynamic-Hair},
   selected={true}
 }
