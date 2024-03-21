@@ -48,7 +48,10 @@
 
           <!-- About -->
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
+            {% comment %}
             <a class="nav-link" href="{{ '/' | relative_url }}">
+            {% endcomment %}
+            <a class="nav-link" href="/#">
               {{- about_title }}
               {% if page.permalink == '/' %}
                 <span class="sr-only">(current)</span>
@@ -97,7 +100,15 @@
               {% else %}
                 <li class="nav-item {% if page.url contains p.permalink %}active{% endif %}">
                   {% if p.permalink contains '/blog/' %}{% assign url = '/blog/' %} {% else %}{% assign url = p.url %}{% endif %}
-                  <a class="nav-link" href="{{ url | relative_url }}">
+                  {% if p.title contains 'news' %}
+                    <a class="nav-link" href="/#news">
+                  {% elsif p.title contains 'publications' %}
+                    <a class="nav-link" href="/#publications">
+                  {% comment %}
+                  {% else %}
+                    <a class="nav-link" href="{{ url | relative_url }}">
+                  {% endcomment %}
+                  {% endif %}
                     {{- p.title }}
                     {% if page.url contains p.url %}
                       <span class="sr-only">(current)</span>

@@ -1,35 +1,35 @@
-"Zoss":
-  - firstname: ["Gaspard"]
-    url: https://people.inf.ethz.ch/zossg/
+# "zoss":
+#   - firstname: ["Gaspard"]
+#     url: https://people.inf.ethz.ch/zossg/
 
-"Bradley":
-  - firstname: ["Derek"]
-    url: https://people.inf.ethz.ch/~bradleyd/
+# "bradley":
+#   - firstname: ["Derek"]
+#     url: https://people.inf.ethz.ch/~bradleyd/
 
-"Solenthaler":
-  - firstname: ["Barbara"]
-    url: https://people.inf.ethz.ch/~sobarbar/solenthaler.html
+# "solenthaler":
+#   - firstname: ["Barbara"]
+#     url: https://people.inf.ethz.ch/~sobarbar/solenthaler.html
 
-"Gross":
-  - firstname: ["Markus"]
-    url: https://cgl.ethz.ch/people/grossm/
+# "gross":
+#   - firstname: ["Markus"]
+#     url: https://cgl.ethz.ch/people/grossm/
 
-"Sifakis":
-  - firstname: [Eftychios"]
-    url: https://pages.cs.wisc.edu/~sifakis/
+# "sifakis":
+#   - firstname: [Eftychios"]
+#     url: https://pages.cs.wisc.edu/~sifakis/
 
-"Zhou":
-  - firstname: ["Kun"]
-    url: http://www.kunzhou.net/
+# "zhou":
+#   - firstname: ["Kun"]
+#     url: http://www.kunzhou.net/
 
-"Fu":
-  - firstname: ["Hongbu"]
-    url: https://sweb.cityu.edu.hk/hongbofu/
+# "fu":
+#   - firstname: ["Hongbu"]
+#     url: https://sweb.cityu.edu.hk/hongbofu/
 
-"Wu":
-  - firstname: ["Keyu"]
-    url: https://keyuwu-cs.github.io/
+# "wu":
+#   - firstname: ["Keyu"]
+#     url: https://keyuwu-cs.github.io/
 
-"Shen":
-  - firstname: ["Yuefan"]
-    url: https://yuefanshen.net/
+# "shen":
+#   - firstname: ["Yuefan"]
+#     url: https://yuefanshen.net/
