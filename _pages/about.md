@@ -20,5 +20,5 @@ I am currently a doctoral student at the [CGL Lab](https://cgl.ethz.ch), ETH Zur
 
 During my doctoral studies, I have the privilege of collaborating with [Disney Research Studios](https://studios.disneyresearch.com/) on physics-based facial simulation, where I had the invaluable opportunity to work alongside [Prof. Eftychios Sifakis](https://pages.cs.wisc.edu/~sifakis/). Before that, I earned my master's degree at Zhejiang University, under the supervision of Prof. Youyi Zheng, [Prof. Kun Zhou](http://www.kunzhou.net/), and [Prof. Hongbo Fu](https://sweb.cityu.edu.hk/hongbofu/).
 
-<span style="color: red;">I am on the industrial or academic job market. Feel free to reach out!</span>
+<!-- <span style="color: red;">I am on the industrial or academic job market. Feel free to reach out!</span> -->
 
