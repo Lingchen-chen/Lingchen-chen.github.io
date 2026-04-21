@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Research Scientist at Meta, where I work on generative modeling, physical simulation, and scalable learning for dynamic 3D/4D humans. My research lies at the intersection of computer graphics, computer vision, and machine learning, with a focus on building structured, controllable, and physically grounded models for digital humans, motion, and interaction. More broadly, I am interested in multimodal foundation models, embodied intelligence, and the role of human-centered generative models in next-generation digital experiences.
+I am a Research Scientist at Meta, where I work on generative modeling, physical simulation, and scalable learning for dynamic 3D/4D humans. My research lies at the intersection of computer graphics, computer vision, and machine learning, with a focus on building structured, controllable, and physically grounded models for digital humans, motion, and interaction. More broadly, I am interested in multimodal foundation models, embodied intelligence, and robotics.
 
 Previously, I completed my Ph.D. at the [CGL Lab](https://cgl.ethz.ch), ETH Zurich, where I was supervised by [Prof. Markus Gross](https://cgl.ethz.ch/people/grossm), [Prof. Barbara Solenthaler](https://people.inf.ethz.ch/~sobarbar/index.html), [Dr. Derek Bradley](https://people.inf.ethz.ch/~bradleyd/), and closely collaborated with [Disney Research Studios](https://studios.disneyresearch.com/) on physics-based facial simulation. During this time, I also had the opportunity to work alongside [Prof. Eftychios Sifakis](https://pages.cs.wisc.edu/~sifakis/).
 
