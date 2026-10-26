@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fff"/>
+  <rect x="80" y="80" width="48" height="5" rx="2" fill="#2563eb"/>
+  <text x="80" y="211" font-family="Georgia, serif" font-size="80" letter-spacing="-3" fill="#252a2e">Lingchen Yang<tspan fill="#2563eb">.</tspan></text>
+  <text x="83" y="278" font-family="Georgia, serif" font-size="30" fill="#62686e">I am building something new in stealth mode.</text>
+  <g font-family="Georgia, serif" font-size="33" fill="#2563eb">
+    <text x="83" y="373">Generative world models</text>
+    <text x="83" y="420">Digital humans · Physics-based simulation</text>
+  </g>
+  <path d="M80 489H1120" stroke="#e3e6e8"/>
+  <text x="83" y="541" font-family="Arial, sans-serif" font-size="21" fill="#62686e">Ph.D., ETH Zurich</text>
+  <circle cx="310" cy="533" r="3" fill="#c4c9ce"/>
+  <text x="331" y="541" font-family="Arial, sans-serif" font-size="21" fill="#f29105">ETH Medal</text>
+  <text x="1120" y="541" text-anchor="end" font-family="Arial, sans-serif" font-size="20" fill="#62686e">lingchen-chen.github.io</text>
+</svg>
