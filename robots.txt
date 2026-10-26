@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://Lingchen-chen.github.io/sitemap.xml
+Sitemap: https://lingchen-chen.github.io/sitemap.xml
